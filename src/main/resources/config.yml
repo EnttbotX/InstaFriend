@@ -1,0 +1,23 @@
+# Placeholders: (PlaceholderAPI)
+#   %wolf_name%
+#   %player_name%
+
+prefix: "&d&l{InstaFriend} > "
+
+check-updates: true
+
+dog-name: "&2%player_name%'s dog"
+collar-color: RED
+
+vault:
+  enabled: true
+  spawn-cost: 100
+
+tame-message:
+  enabled: true
+  message:
+    - "&6You tamed a wolf named &e%wolf_name%!"
+    - "&7Your new balance: &a%vault_eco_balance%"
+
+messages:
+  no-perms: "&cYou don't have permissions to do that!"

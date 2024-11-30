@@ -1,0 +1,28 @@
+name: InstaFriend
+version: 1.1.0
+main: x.Entt.InstaFriend.IF
+author: Enttbot
+api-version: "1.13"
+softdepend:
+  - Vault
+  - PlaceholderAPI
+description: Make the wolf you place with its spawn egg instantly your friend!
+
+commands:
+  instafriend:
+    description: Main command of IF.
+    aliases:
+      - if
+
+permissions:
+  if.*:
+    description: get all perms of InstaFriend.
+    children:
+      if.admin: true
+      if.use: true
+  if.use:
+    description: Get the permission to use the plugin (tame a wolf with a spawner egg)
+    default: op
+  if.admin:
+    description: get access to cmds and check updates.
+    default: op
